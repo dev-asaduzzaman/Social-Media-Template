@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400;1,500&family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+                <img src="images/logo.png" class="logo">
+            </a>
+            <ul>
+                <li><img src="images/notification.png" ></li>
+                <li><img src="images/inbox.png" ></li>
+                <li><img src="images/video.png" ></li>
+
+            </ul>
+        </div>
+        <div class="nav-right">
+            
+            <div class="search-box">
+                <img src="images/search.png" >
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="user-icon online" onclick="settingMenuToggle()">
+                <img src="images/profile-pic.png" alt="">
+            </div>
+
+        </div>
+<!-- ----------setting menu ---------------->
+        <div class="setiing-menu">
+
+           <div id="dark-btn" >
+               <span></span>
+           </div>
+
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" >
+                    <div>
+                        <p>Jack Nicolsh</p>
+                       <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+    
+                <div class="user-profile">
+                    <img src="images/feedback.png" >
+                    <div>
+                        <p>Get feedback</p>
+                       <a href="#">Help us to improve new design</a>
+                    </div>
+                </div>
+                <hr>
+
+                    <div class="setting-link">
+                        <img src="images/setting.png" class="setting-icon">
+                        <a href="#">Setting & Privacy <img src="images/arrow.png" width="10px" ></a>
+                    </div>
+
+                    <div class="setting-link">
+                        <img src="images/help.png" class="setting-icon">
+                        <a href="#">Help & Support <img src="images/arrow.png" width="10px" ></a>
+                    </div>
+
+                    <div class="setting-link">
+                        <img src="images/display.png" class="setting-icon">
+                        <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px" ></a>
+                    </div>
+
+                    <div class="setting-link">
+                        <img src="images/logout.png" class="setting-icon">
+                        <a href="#">Log Out <img src="images/arrow.png" width="10px" ></a>
+                    </div>
+
+
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- profile page----- -->
+    <div class="profile-container">
+        <img src="images/cover.png" class="cover-img">
+        <div class="profile-datails">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profile.png" class="pd-img" >
+                    <div>
+                        <h3>Jack Nicolsh</h3>
+                        <p>120 Friends - 20 mutaul</p>
+                        <img src="images/member-1.png">
+                        <img src="images/member-2.png">
+                        <img src="images/member-3.png">
+                        <img src="images/member-4.png">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+
+                <button type="button"> <img src="images/add-friends.png" > Friends</button>
+                <button type="button"> <img src="images/message.png" > Message</button>
+                <br>
+                <a href="#"> <img src="images/more.png" alt=""> </a>
+
+
+            </div>
+        </div>
+
+
+          <div class="profile-info">
+              <div class="info-col">
+                
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">I was born poor family.And I lived as a loser. But definitly. One day you know I will die as a legend. <img src="images/feeling.png"> </p>
+                    <hr>
+
+                    <ul>
+                        <li> <img src="images/profile-job.png"> Director at 99media Ltd</li>
+                        <li> <img src="images/profile-study.png"> Studied at National University</li>
+                        <li> <img src="images/profile-study.png">  Went Nikli adarsha gov college</li>
+                        <li> <img src="images/profile-home.png" alt=""> Lives in Nikli, Kishoreganj </li>
+                        <li> <img src="images/profile-location.png" alt=""> From Nikli,Kishoreganj</li>
+                    </ul>
+                </div> 
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                    <a href="#">All Photos</a>
+                    </div>
+                    
+                    <div class="photo-box">
+                        <div><img src="images/photo1.png" alt=""></div>
+                        <div><img src="images/photo2.png" alt=""></div>
+                        <div><img src="images/photo3.png" alt=""></div>
+                        <div><img src="images/photo4.png" alt=""></div>
+                        <div><img src="images/photo5.png" alt=""></div>
+                        <div><img src="images/photo6.png" alt=""></div>
+                    </div>
+                </div>
+
+               
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                    <a href="#">All Friends</a>
+                    </div>
+                    <p>120 (10 mutaul)</p>
+                    <div class="friends-box">
+                        
+                        <div><img src="images/member-1.png" alt=""> <p>Jopesh N</p></div>
+                        <div><img src="images/member-2.png" alt=""> <p>Nathan N</p></div>
+                        <div><img src="images/member-3.png" alt=""> <p>George D</p></div>
+                        <div><img src="images/member-4.png" alt=""> <p>Francis N</p></div>
+                        <div><img src="images/member-5.png" alt=""> <p>Anthony E</p></div>
+                        <div><img src="images/member-6.png" alt=""> <p>Michel J</p></div>
+                        <div><img src="images/member-7.png" alt=""> <p>Edward N</p></div>
+                        <div><img src="images/member-8.png" alt=""> <p>Bradon L</p></div>
+                        <div><img src="images/member-9.png" alt=""> <p>James Doe</p></div>
+
+                    </div>
+                </div>
+
+              </div>
+              <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" >
+                        <div>
+                            <p>Jack Nicolsh</p>
+                            <small>Public <i class="fas fa-caret-down"></i> </small>
+                        </div>
+                    </div>
+    
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind, John?"></textarea>
+    
+                        <div class="add-post-link">
+                            <a href="#"> <img src="images/live-video.png" >Live video</a>
+                            <a href="#"> <img src="images/photo.png" >Photo/video</a>
+                            <a href="#"><img src="images/feeling.png" >Feelings</a>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                     <div class="user-profile">
+                         <img src="images/profile-pic.png" >
+                         <div>
+                             <p>Jack Nicolsh</p>
+                             <span>22 June 2021, 12:15 PM</span>
+                         </div>
+                     </div>
+                     <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                     <p class="post-text">Iam a front-end developer.Iam expert in HTML CSC JS JQUERY BOOTSTRAP itc. <a href="https://www.fiverr.com/asad0l?up_rollout=true">#Web_Design</a> <a href="https://www.fiverr.com/asad0l/convert-psd-to-html-pdf-to-html-full-resposive-with-bootstrap">#psd_to_html</a></p>
+                             <img src="images/feed-image-1.png" class="post-img">
+     
+                             <div class="post-row">
+                                 <div class="activity-icon">
+                                     <div><img src="images/like-blue.png" >120</div>
+                                     <div><img src="images/comments.png" >60</div>
+                                     <div><img src="images/share.png" >12</div>
+                                 </div>
+     
+                                 <div class="post-profile-icon">
+                                     <img src="images/profile-pic.png" alt=""> <i class="fas fa-caret-down"></i>
+                                 </div>
+                             </div>
+                     
+                 </div>
+     
+                 <div class="post-container">
+                     <div class="post-row">
+                      <div class="user-profile">
+                          <img src="images/profile-pic.png" >
+                          <div>
+                              <p>Jack </p>
+                              <span>25 June 2021, 12:00 PM</span>
+                          </div>
+                      </div>
+                      <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                     </div>
+                      <p class="post-text">I am Asad, I have been doing web design for the last 3+ years. I am highly experienced and skilled in converting PSD TO HTML5, CSS3 Animation, Bootstrap responsive, JavaScript, jQuery (Plugin) languages.. <a href="https://www.fiverr.com/asad0l?up_rollout=true">#Web_Design</a> <a href="https://www.fiverr.com/asad0l/convert-psd-to-html-pdf-to-html-full-resposive-with-bootstrap">#psd_to_html</a></p>
+                              <img src="images/feed-image-2.png" class="post-img">
+      
+                              <div class="post-row">
+                                  <div class="activity-icon">
+                                      <div><img src="images/like-blue.png" >120</div>
+                                      <div><img src="images/comments.png" >60</div>
+                                      <div><img src="images/share.png" >12</div>
+                                  </div>
+      
+                                  <div class="post-profile-icon">
+                                      <img src="images/profile-pic.png" alt=""> <i class="fas fa-caret-down"></i>
+                                  </div>
+                              </div>
+                      
+                  </div>
+     
+                  <div class="post-container">
+                     <div class="post-row">
+                      <div class="user-profile">
+                          <img src="images/profile-pic.png" >
+                          <div>
+                              <p>Jack </p>
+                              <span>25 June 2021, 12:00 PM</span>
+                          </div>
+                      </div>
+                      <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                     </div>
+                      <p class="post-text">I am Asad, I have been doing web design for the last 3+ years. I am highly experienced and skilled in converting PSD TO HTML5, CSS3 Animation, Bootstrap responsive, JavaScript, jQuery (Plugin) languages.. <a href="https://www.fiverr.com/asad0l?up_rollout=true">#Web_Design</a> <a href="https://www.fiverr.com/asad0l/convert-psd-to-html-pdf-to-html-full-resposive-with-bootstrap">#psd_to_html</a></p>
+                              <img src="images/feed-image-3.png" class="post-img">
+      
+                              <div class="post-row">
+                                  <div class="activity-icon">
+                                      <div><img src="images/like-blue.png" >120</div>
+                                      <div><img src="images/comments.png" >60</div>
+                                      <div><img src="images/share.png" >12</div>
+                                  </div>
+      
+                                  <div class="post-profile-icon">
+                                      <img src="images/profile-pic.png" alt=""> <i class="fas fa-caret-down"></i>
+                                  </div>
+                              </div>
+                      
+                  </div>
+     
+                  <div class="post-container">
+                     <div class="post-row">
+                      <div class="user-profile">
+                          <img src="images/profile-pic.png" >
+                          <div>
+                              <p>Jack </p>
+                              <span>25 June 2021, 12:00 PM</span>
+                          </div>
+                      </div>
+                      <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                     </div>
+                      <p class="post-text">I am Asad, I have been doing web design for the last 3+ years. I am highly experienced and skilled in converting PSD TO HTML5, CSS3 Animation, Bootstrap responsive, JavaScript, jQuery (Plugin) languages.. <a href="https://www.fiverr.com/asad0l?up_rollout=true">#Web_Design</a> <a href="https://www.fiverr.com/asad0l/convert-psd-to-html-pdf-to-html-full-resposive-with-bootstrap">#psd_to_html</a></p>
+                              <img src="images/feed-image-4.png" class="post-img">
+      
+                              <div class="post-row">
+                                  <div class="activity-icon">
+                                      <div><img src="images/like-blue.png" >120</div>
+                                      <div><img src="images/comments.png" >60</div>
+                                      <div><img src="images/share.png" >12</div>
+                                  </div>
+      
+                                  <div class="post-profile-icon">
+                                      <img src="images/profile-pic.png" alt=""> <i class="fas fa-caret-down"></i>
+                                  </div>
+                              </div>
+                      
+                  </div>
+     
+                  <div class="post-container">
+                     <div class="post-row">
+                      <div class="user-profile">
+                          <img src="images/profile-pic.png" >
+                          <div>
+                              <p>Jack </p>
+                              <span>25 June 2021, 12:00 PM</span>
+                          </div>
+                      </div>
+                      <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                     </div>
+                      <p class="post-text">I am Asad, I have been doing web design for the last 3+ years. I am highly experienced and skilled in converting PSD TO HTML5, CSS3 Animation, Bootstrap responsive, JavaScript, jQuery (Plugin) languages.. <a href="https://www.fiverr.com/asad0l?up_rollout=true">#Web_Design</a> <a href="https://www.fiverr.com/asad0l/convert-psd-to-html-pdf-to-html-full-resposive-with-bootstrap">#psd_to_html</a></p>
+                              <img src="images/feed-image-5.png" class="post-img">
+      
+                              <div class="post-row">
+                                  <div class="activity-icon">
+                                      <div><img src="images/like-blue.png" >120</div>
+                                      <div><img src="images/comments.png" >60</div>
+                                      <div><img src="images/share.png" >12</div>
+                                  </div>
+      
+                                  <div class="post-profile-icon">
+                                      <img src="images/profile-pic.png" alt=""> <i class="fas fa-caret-down"></i>
+                                  </div>
+                              </div>
+                      
+                  </div>
+            </div>
+          </div>
+
+    </div>
+
+
+
+
+ <div class="footer">
+     <p>Copyright 2022 - AHMED ASAD</p>
+ </div>
+
+ <script src="script.js"></script>
+</body>
+</html>
